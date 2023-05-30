@@ -1,0 +1,5 @@
+#!/bin/bash
+
+USER_HOME=$(eval echo ~)
+cd "$USER_HOME/Steam/steamapps/common/Euro Truck Simulator 2 Dedicated Server/bin/linux_x64"
+nohup ./server_launch.sh -nosingle > $USER_HOME/.local/share/Euro Truck Simulator 2/server_log.log 2>&1 &

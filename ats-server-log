@@ -1,0 +1,4 @@
+#!/bin/bash
+
+USER_HOME=$(eval echo ~)
+tail -f "$USER_HOME/.local/share/American Truck Simulator/server.log.txt"

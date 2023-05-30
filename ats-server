@@ -1,0 +1,5 @@
+#!/bin/bash
+
+USER_HOME=$(eval echo ~)
+cd "$USER_HOME/Steam/steamapps/common/American Truck Simulator Dedicated Server/bin/linux_x64"
+nohup ./server_launch.sh -nosingle > "$USER_HOME/.local/share/American Truck Simulator/server_log.log" 2>&1 &

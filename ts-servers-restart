@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ats-server-stop &
+ets2-server-stop &
+wait
+
+sleep 1
+
+ats-server -d &
+ets2-server -d &

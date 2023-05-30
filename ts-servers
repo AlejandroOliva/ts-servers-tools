@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ats-server -d
+ets2-server -d

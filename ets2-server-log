@@ -1,0 +1,4 @@
+#!/bin/bash
+
+USER_HOME=$(eval echo ~)
+tail -f "$USER_HOME/.local/share/Euro Truck Simulator 2/server.log.txt"

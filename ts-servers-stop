@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ats-server-stop
+ets2-server-stop
