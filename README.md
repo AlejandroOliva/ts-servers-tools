@@ -33,15 +33,19 @@ You will also need to enable the ports as described in the SCSSoft Documentation
 
 ### `ats-server` / `ets2-server`
 
-Start server
+Start ATS or ETS2 server
 
 ### `ats-server-stop` / `ets2-server-stop`
 
-Stop server
+Stop all running ATS or ETS2 servers
+
+### `ats-server-restart` / `ets2-server-restart`
+
+Stops all running ATS or ETS2 servers and starts a new server for the same game
 
 ### `ats-server-log` / `ets2-server-log`
 
-Displays server log 
+Displays ATS or ETS2 server log 
 
 ### `ts-servers`
 
@@ -49,8 +53,8 @@ Start 2 servers, one for each game (`ats-server` + `ets2-server`)
 
 ### `ts-servers-stop`
 
-Stops all running ATS / ETS2 servers (`ats-server-stop` + `ets2-server-stop`)
+Stops all running ATS & ETS2 servers (`ats-server-stop` + `ets2-server-stop`)
 
 ### `ts-servers-restart`
 
-Stops all running ATS / ETS2 servers and starts a new server for each game (`ats-server-stop` + `ets2-server-stop`, then `ats-server` + `ets2-server`)
+Stops all running ATS & ETS2 servers and starts a new server for each game (`ats-server-stop` + `ets2-server-stop`, then `ats-server` + `ets2-server`)

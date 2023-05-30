@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ats-server-stop &
+wait
+
+sleep 1
+
+ats-server -d &

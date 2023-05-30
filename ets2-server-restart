@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ets2-server-stop &
+wait
+
+sleep 1
+
+ets2-server -d &
